@@ -466,13 +466,13 @@
         "retained_d7": 312
       }
     },
-    "d7_control": 0.29852216748768473,
-    "d7_treatment": 0.3023255813953488,
-    "difference": 0.0038034139076640883,
-    "ci_low": -0.035917257802176694,
-    "ci_high": 0.04352408561750487,
-    "p_value": 0.8511348541553908,
-    "srm_p_value": 0.7071085449736787,
+    "d7_control": 0.298522167488,
+    "d7_treatment": 0.302325581395,
+    "difference": 0.003803413908,
+    "ci_low": -0.035917257802,
+    "ci_high": 0.043524085618,
+    "p_value": 0.851134854155,
+    "srm_p_value": 0.707108544974,
     "primary_metric": "Exact-day D7 retention",
     "method": "Two-sided pooled two-proportion z test; unpooled Wald 95% CI; SRM chi-square df=1; alpha=0.05"
   },

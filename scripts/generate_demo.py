@@ -84,7 +84,8 @@ def experiment(cohorts):
     null_error = math.sqrt(pooled * (1 - pooled) * (1 / control['players'] + 1 / treatment['players']))
     total = control['players'] + treatment['players']
     chi_square = sum((group['players'] - total / 2) ** 2 / (total / 2) for group in totals.values())
-    return dict(groups=totals, d7_control=control_rate, d7_treatment=treatment_rate, difference=difference, ci_low=difference - 1.96 * standard_error, ci_high=difference + 1.96 * standard_error, p_value=math.erfc(abs(difference / null_error) / math.sqrt(2)), srm_p_value=math.erfc(math.sqrt(chi_square / 2)), primary_metric='Exact-day D7 retention', method='Two-sided pooled two-proportion z test; unpooled Wald 95% CI; SRM chi-square df=1; alpha=0.05')
+    result = dict(groups=totals, d7_control=control_rate, d7_treatment=treatment_rate, difference=difference, ci_low=difference - 1.96 * standard_error, ci_high=difference + 1.96 * standard_error, p_value=math.erfc(abs(difference / null_error) / math.sqrt(2)), srm_p_value=math.erfc(math.sqrt(chi_square / 2)), primary_metric='Exact-day D7 retention', method='Two-sided pooled two-proportion z test; unpooled Wald 95% CI; SRM chi-square df=1; alpha=0.05')
+    return {key: round(value, 12) if isinstance(value, float) else value for key, value in result.items()}
 
 
 def route_distance(points):
