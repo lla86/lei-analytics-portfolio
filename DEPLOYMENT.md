@@ -1,6 +1,6 @@
 # GitHub Pages deployment
 
-The intended independent repository is `lla86/lei-analytics-portfolio`. Existing repositories should not be overwritten. Deployment status and verified links are recorded separately in `output/deployment-status.json` in the local handoff package, not assumed by these instructions.
+The independent repository is [lla86/lei-analytics-portfolio](https://github.com/lla86/lei-analytics-portfolio). The [live portfolio](https://lla86.github.io/lei-analytics-portfolio/) was deployed and verified on 2026-11-12 using `main` and `/docs`. Existing repositories were not changed. The instructions below document how to reproduce or recover this deployment.
 
 ## Browser
 

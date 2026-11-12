@@ -2,6 +2,8 @@
 
 Statistics, operational analytics and visual communication. Vancouver, BC.
 
+**[Explore the live portfolio →](https://lla86.github.io/lei-analytics-portfolio/)** · [Validation workflow](https://github.com/lla86/lei-analytics-portfolio/actions/workflows/validate.yml)
+
 **BSc Statistics, Simon Fraser University — completed December 2025.** Previously **Visual Effects Artist / Compositor, 2019–2023**.
 
 This repository expands three resume-listed projects into clear case studies and runnable examples. **Every new implementation is a portfolio reconstruction / demo, and every generated dataset and displayed number is synthetic.** Resume claims are explicitly separated from reconstructed findings. No real business improvement, production deployment, original experiment result or original Power BI workbook is implied.
