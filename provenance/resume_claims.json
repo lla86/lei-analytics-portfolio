@@ -1,0 +1,56 @@
+{
+  "source": "Lei_Liu_Resume_DA.pdf",
+  "extraction": "Manually transcribed from the rendered single-page original; PDF has no extractable text layer.",
+  "reviewed_on": "2026-11-12",
+  "identity": {
+    "name": "Lei Liu",
+    "location": "Vancouver, BC",
+    "email": "leisfu2020@gmail.com",
+    "education": "Simon Fraser University (SFU) | Bachelor of Science, Statistics",
+    "education_dates": "Sep 2023 - Dec 2025",
+    "experience": "Visual Effects Artist - Compositor | Vancouver, BC",
+    "experience_dates": "2019 - 2023"
+  },
+  "projects": [
+    {
+      "id": "delivery",
+      "title": "Delivery Operations Analytics Platform",
+      "stack": ["Python", "Flask", "SQLite"],
+      "claims": [
+        "Designed and developed a Python-based analytics platform to support operational planning, route optimization, and reporting.",
+        "Built data workflows to clean, validate, and structure operational datasets for analysis and dashboard monitoring.",
+        "Applied optimization logic to improve scheduling visibility, resource allocation, and operational decision-making."
+      ]
+    },
+    {
+      "id": "retention",
+      "title": "Player Retention & Experimentation Analytics",
+      "stack": ["SQL", "Python", "Statistics"],
+      "claims": [
+        "Conducted cohort analysis to evaluate D1 and D7 retention metrics and identify engagement trends across player segments.",
+        "Performed A/B testing analysis to measure the impact of product changes on engagement, retention, and player behavior.",
+        "Identified behavioral indicators associated with churn and long-term engagement to support product quality insights.",
+        "Automated KPI reporting and translated findings into dashboard-ready metrics for stakeholder communication."
+      ]
+    },
+    {
+      "id": "campaign",
+      "title": "Customer Behavior & Campaign Analytics",
+      "stack": ["SQL", "Python", "Power BI"],
+      "claims": [
+        "Analyzed engagement and campaign response data across 2,000+ customer records using SQL and Python.",
+        "Developed customer segments using recency, purchase behavior, and spending patterns to identify high-value groups.",
+        "Built Power BI dashboards to monitor conversion, retention, campaign performance, and customer behavior metrics.",
+        "Generated data-driven recommendations to improve customer targeting and lifecycle marketing initiatives."
+      ]
+    }
+  ],
+  "boundaries": [
+    "Resume claims are self-reported, not independently verified achievements.",
+    "No numerical business improvement is stated in the resume.",
+    "The 2,000+ customer count belongs to the resume claim, not the synthetic demo.",
+    "No original retention project code or Power BI workbook was supplied.",
+    "Existing repositories were inspected read-only; private delivery code and customer data are not republished.",
+    "Phone number intentionally omitted from public materials."
+  ]
+}

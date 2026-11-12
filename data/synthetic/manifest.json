@@ -1,0 +1,11 @@
+{
+  "seed": 20261112,
+  "provenance": "portfolio reconstruction / demo / synthetic data",
+  "files": {
+    "campaigns.csv": "c6b7260cb6330fb96e25e74951eb0053b7f78fdb45e4d28d28dd5d9736928e71",
+    "customers.csv": "c3e5ddabf555e72a8bf6a2022c5420faa5b8592eec1f219133e8e00804eabd58",
+    "deliveries.csv": "31c0356c7a975313725cdeaa70e7604bb8c1d038f941ee103a8c5c59a70e5e97",
+    "players.csv": "1ff70943309ae75511cad245df15238375c0b91ea20a4c2bcc82345ab87d85cb",
+    "sessions.csv": "6fa111bc89dfd05c367cf84558c8744171051b1446f8757153fa5ded4263b572"
+  }
+}

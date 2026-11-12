@@ -1,0 +1,509 @@
+{
+  "provenance": "portfolio reconstruction / demo / synthetic data",
+  "seed": 20261112,
+  "observation_end": "2025-09-30",
+  "delivery": [
+    {
+      "zone": "Central",
+      "orders": 303,
+      "delivered": 287,
+      "cancelled": 16,
+      "on_time": 258,
+      "mean_minutes": 35.26,
+      "on_time_rate": 0.898955
+    },
+    {
+      "zone": "North",
+      "orders": 288,
+      "delivered": 273,
+      "cancelled": 15,
+      "on_time": 183,
+      "mean_minutes": 44.65,
+      "on_time_rate": 0.67033
+    },
+    {
+      "zone": "South",
+      "orders": 309,
+      "delivered": 305,
+      "cancelled": 4,
+      "on_time": 257,
+      "mean_minutes": 39.89,
+      "on_time_rate": 0.842623
+    }
+  ],
+  "route": {
+    "stops": 12,
+    "baseline_km": 166.369919,
+    "heuristic_km": 91.739233,
+    "assumption": "Synthetic Euclidean coordinates, one vehicle, depot (0,0), round trip; input-order baseline; no traffic, capacity or time windows. Not a real dispatch saving or a proven optimum."
+  },
+  "retention": [
+    {
+      "cohort": "2025-09-01",
+      "variant": "A",
+      "players": 47,
+      "retained_d1": 25,
+      "retained_d7": 12,
+      "d1_rate": 0.5319148936170213,
+      "d7_rate": 0.2553191489361702
+    },
+    {
+      "cohort": "2025-09-01",
+      "variant": "B",
+      "players": 42,
+      "retained_d1": 24,
+      "retained_d7": 15,
+      "d1_rate": 0.5714285714285714,
+      "d7_rate": 0.35714285714285715
+    },
+    {
+      "cohort": "2025-09-02",
+      "variant": "A",
+      "players": 47,
+      "retained_d1": 26,
+      "retained_d7": 13,
+      "d1_rate": 0.5531914893617021,
+      "d7_rate": 0.2765957446808511
+    },
+    {
+      "cohort": "2025-09-02",
+      "variant": "B",
+      "players": 42,
+      "retained_d1": 23,
+      "retained_d7": 15,
+      "d1_rate": 0.5476190476190477,
+      "d7_rate": 0.35714285714285715
+    },
+    {
+      "cohort": "2025-09-03",
+      "variant": "A",
+      "players": 43,
+      "retained_d1": 21,
+      "retained_d7": 15,
+      "d1_rate": 0.4883720930232558,
+      "d7_rate": 0.3488372093023256
+    },
+    {
+      "cohort": "2025-09-03",
+      "variant": "B",
+      "players": 46,
+      "retained_d1": 16,
+      "retained_d7": 17,
+      "d1_rate": 0.34782608695652173,
+      "d7_rate": 0.3695652173913043
+    },
+    {
+      "cohort": "2025-09-04",
+      "variant": "A",
+      "players": 46,
+      "retained_d1": 19,
+      "retained_d7": 12,
+      "d1_rate": 0.41304347826086957,
+      "d7_rate": 0.2608695652173913
+    },
+    {
+      "cohort": "2025-09-04",
+      "variant": "B",
+      "players": 43,
+      "retained_d1": 25,
+      "retained_d7": 11,
+      "d1_rate": 0.5813953488372093,
+      "d7_rate": 0.2558139534883721
+    },
+    {
+      "cohort": "2025-09-05",
+      "variant": "A",
+      "players": 42,
+      "retained_d1": 18,
+      "retained_d7": 16,
+      "d1_rate": 0.42857142857142855,
+      "d7_rate": 0.38095238095238093
+    },
+    {
+      "cohort": "2025-09-05",
+      "variant": "B",
+      "players": 47,
+      "retained_d1": 26,
+      "retained_d7": 12,
+      "d1_rate": 0.5531914893617021,
+      "d7_rate": 0.2553191489361702
+    },
+    {
+      "cohort": "2025-09-06",
+      "variant": "A",
+      "players": 46,
+      "retained_d1": 26,
+      "retained_d7": 18,
+      "d1_rate": 0.5652173913043478,
+      "d7_rate": 0.391304347826087
+    },
+    {
+      "cohort": "2025-09-06",
+      "variant": "B",
+      "players": 43,
+      "retained_d1": 26,
+      "retained_d7": 8,
+      "d1_rate": 0.6046511627906976,
+      "d7_rate": 0.18604651162790697
+    },
+    {
+      "cohort": "2025-09-07",
+      "variant": "A",
+      "players": 46,
+      "retained_d1": 31,
+      "retained_d7": 12,
+      "d1_rate": 0.6739130434782609,
+      "d7_rate": 0.2608695652173913
+    },
+    {
+      "cohort": "2025-09-07",
+      "variant": "B",
+      "players": 43,
+      "retained_d1": 23,
+      "retained_d7": 13,
+      "d1_rate": 0.5348837209302325,
+      "d7_rate": 0.3023255813953488
+    },
+    {
+      "cohort": "2025-09-08",
+      "variant": "A",
+      "players": 44,
+      "retained_d1": 23,
+      "retained_d7": 24,
+      "d1_rate": 0.5227272727272727,
+      "d7_rate": 0.5454545454545454
+    },
+    {
+      "cohort": "2025-09-08",
+      "variant": "B",
+      "players": 45,
+      "retained_d1": 24,
+      "retained_d7": 11,
+      "d1_rate": 0.5333333333333333,
+      "d7_rate": 0.24444444444444444
+    },
+    {
+      "cohort": "2025-09-09",
+      "variant": "A",
+      "players": 40,
+      "retained_d1": 17,
+      "retained_d7": 9,
+      "d1_rate": 0.425,
+      "d7_rate": 0.225
+    },
+    {
+      "cohort": "2025-09-09",
+      "variant": "B",
+      "players": 49,
+      "retained_d1": 29,
+      "retained_d7": 16,
+      "d1_rate": 0.5918367346938775,
+      "d7_rate": 0.32653061224489793
+    },
+    {
+      "cohort": "2025-09-10",
+      "variant": "A",
+      "players": 45,
+      "retained_d1": 24,
+      "retained_d7": 12,
+      "d1_rate": 0.5333333333333333,
+      "d7_rate": 0.26666666666666666
+    },
+    {
+      "cohort": "2025-09-10",
+      "variant": "B",
+      "players": 44,
+      "retained_d1": 22,
+      "retained_d7": 16,
+      "d1_rate": 0.5,
+      "d7_rate": 0.36363636363636365
+    },
+    {
+      "cohort": "2025-09-11",
+      "variant": "A",
+      "players": 42,
+      "retained_d1": 19,
+      "retained_d7": 12,
+      "d1_rate": 0.4523809523809524,
+      "d7_rate": 0.2857142857142857
+    },
+    {
+      "cohort": "2025-09-11",
+      "variant": "B",
+      "players": 47,
+      "retained_d1": 23,
+      "retained_d7": 14,
+      "d1_rate": 0.48936170212765956,
+      "d7_rate": 0.2978723404255319
+    },
+    {
+      "cohort": "2025-09-12",
+      "variant": "A",
+      "players": 48,
+      "retained_d1": 25,
+      "retained_d7": 13,
+      "d1_rate": 0.5208333333333334,
+      "d7_rate": 0.2708333333333333
+    },
+    {
+      "cohort": "2025-09-12",
+      "variant": "B",
+      "players": 41,
+      "retained_d1": 21,
+      "retained_d7": 12,
+      "d1_rate": 0.5121951219512195,
+      "d7_rate": 0.2926829268292683
+    },
+    {
+      "cohort": "2025-09-13",
+      "variant": "A",
+      "players": 48,
+      "retained_d1": 23,
+      "retained_d7": 16,
+      "d1_rate": 0.4791666666666667,
+      "d7_rate": 0.3333333333333333
+    },
+    {
+      "cohort": "2025-09-13",
+      "variant": "B",
+      "players": 41,
+      "retained_d1": 27,
+      "retained_d7": 16,
+      "d1_rate": 0.6585365853658537,
+      "d7_rate": 0.3902439024390244
+    },
+    {
+      "cohort": "2025-09-14",
+      "variant": "A",
+      "players": 51,
+      "retained_d1": 30,
+      "retained_d7": 13,
+      "d1_rate": 0.5882352941176471,
+      "d7_rate": 0.2549019607843137
+    },
+    {
+      "cohort": "2025-09-14",
+      "variant": "B",
+      "players": 38,
+      "retained_d1": 15,
+      "retained_d7": 12,
+      "d1_rate": 0.39473684210526316,
+      "d7_rate": 0.3157894736842105
+    },
+    {
+      "cohort": "2025-09-15",
+      "variant": "A",
+      "players": 35,
+      "retained_d1": 20,
+      "retained_d7": 11,
+      "d1_rate": 0.5714285714285714,
+      "d7_rate": 0.3142857142857143
+    },
+    {
+      "cohort": "2025-09-15",
+      "variant": "B",
+      "players": 54,
+      "retained_d1": 27,
+      "retained_d7": 17,
+      "d1_rate": 0.5,
+      "d7_rate": 0.3148148148148148
+    },
+    {
+      "cohort": "2025-09-16",
+      "variant": "A",
+      "players": 43,
+      "retained_d1": 22,
+      "retained_d7": 12,
+      "d1_rate": 0.5116279069767442,
+      "d7_rate": 0.27906976744186046
+    },
+    {
+      "cohort": "2025-09-16",
+      "variant": "B",
+      "players": 46,
+      "retained_d1": 31,
+      "retained_d7": 14,
+      "d1_rate": 0.6739130434782609,
+      "d7_rate": 0.30434782608695654
+    },
+    {
+      "cohort": "2025-09-17",
+      "variant": "A",
+      "players": 48,
+      "retained_d1": 24,
+      "retained_d7": 9,
+      "d1_rate": 0.5,
+      "d7_rate": 0.1875
+    },
+    {
+      "cohort": "2025-09-17",
+      "variant": "B",
+      "players": 41,
+      "retained_d1": 21,
+      "retained_d7": 12,
+      "d1_rate": 0.5121951219512195,
+      "d7_rate": 0.2926829268292683
+    },
+    {
+      "cohort": "2025-09-18",
+      "variant": "A",
+      "players": 43,
+      "retained_d1": 21,
+      "retained_d7": 9,
+      "d1_rate": 0.4883720930232558,
+      "d7_rate": 0.20930232558139536
+    },
+    {
+      "cohort": "2025-09-18",
+      "variant": "B",
+      "players": 46,
+      "retained_d1": 21,
+      "retained_d7": 14,
+      "d1_rate": 0.45652173913043476,
+      "d7_rate": 0.30434782608695654
+    },
+    {
+      "cohort": "2025-09-19",
+      "variant": "A",
+      "players": 51,
+      "retained_d1": 24,
+      "retained_d7": 13,
+      "d1_rate": 0.47058823529411764,
+      "d7_rate": 0.2549019607843137
+    },
+    {
+      "cohort": "2025-09-19",
+      "variant": "B",
+      "players": 38,
+      "retained_d1": 23,
+      "retained_d7": 12,
+      "d1_rate": 0.6052631578947368,
+      "d7_rate": 0.3157894736842105
+    },
+    {
+      "cohort": "2025-09-20",
+      "variant": "A",
+      "players": 36,
+      "retained_d1": 18,
+      "retained_d7": 11,
+      "d1_rate": 0.5,
+      "d7_rate": 0.3055555555555556
+    },
+    {
+      "cohort": "2025-09-20",
+      "variant": "B",
+      "players": 53,
+      "retained_d1": 32,
+      "retained_d7": 16,
+      "d1_rate": 0.6037735849056604,
+      "d7_rate": 0.3018867924528302
+    },
+    {
+      "cohort": "2025-09-21",
+      "variant": "A",
+      "players": 39,
+      "retained_d1": 17,
+      "retained_d7": 11,
+      "d1_rate": 0.4358974358974359,
+      "d7_rate": 0.28205128205128205
+    },
+    {
+      "cohort": "2025-09-21",
+      "variant": "B",
+      "players": 50,
+      "retained_d1": 24,
+      "retained_d7": 13,
+      "d1_rate": 0.48,
+      "d7_rate": 0.26
+    },
+    {
+      "cohort": "2025-09-22",
+      "variant": "A",
+      "players": 41,
+      "retained_d1": 22,
+      "retained_d7": 16,
+      "d1_rate": 0.5365853658536586,
+      "d7_rate": 0.3902439024390244
+    },
+    {
+      "cohort": "2025-09-22",
+      "variant": "B",
+      "players": 48,
+      "retained_d1": 23,
+      "retained_d7": 13,
+      "d1_rate": 0.4791666666666667,
+      "d7_rate": 0.2708333333333333
+    },
+    {
+      "cohort": "2025-09-23",
+      "variant": "A",
+      "players": 44,
+      "retained_d1": 30,
+      "retained_d7": 14,
+      "d1_rate": 0.6818181818181818,
+      "d7_rate": 0.3181818181818182
+    },
+    {
+      "cohort": "2025-09-23",
+      "variant": "B",
+      "players": 45,
+      "retained_d1": 24,
+      "retained_d7": 13,
+      "d1_rate": 0.5333333333333333,
+      "d7_rate": 0.28888888888888886
+    }
+  ],
+  "experiment": {
+    "groups": {
+      "A": {
+        "players": 1015,
+        "retained_d1": 525,
+        "retained_d7": 303
+      },
+      "B": {
+        "players": 1032,
+        "retained_d1": 550,
+        "retained_d7": 312
+      }
+    },
+    "d7_control": 0.29852216748768473,
+    "d7_treatment": 0.3023255813953488,
+    "difference": 0.0038034139076640883,
+    "ci_low": -0.035917257802176694,
+    "ci_high": 0.04352408561750487,
+    "p_value": 0.8511348541553908,
+    "srm_p_value": 0.7071085449736787,
+    "primary_metric": "Exact-day D7 retention",
+    "method": "Two-sided pooled two-proportion z test; unpooled Wald 95% CI; SRM chi-square df=1; alpha=0.05"
+  },
+  "campaign": [
+    {
+      "segment": "Loyal",
+      "customers": 129,
+      "responses": 36,
+      "response_rate": 0.27906976744186046,
+      "historical_spend_cad": 95192.39
+    },
+    {
+      "segment": "Developing",
+      "customers": 249,
+      "responses": 30,
+      "response_rate": 0.12048192771084337,
+      "historical_spend_cad": 90195.39
+    },
+    {
+      "segment": "At risk",
+      "customers": 422,
+      "responses": 31,
+      "response_rate": 0.07345971563981042,
+      "historical_spend_cad": 215195.99
+    }
+  ],
+  "counts": {
+    "deliveries": 900,
+    "players": 2400,
+    "sessions": 5821,
+    "customers": 800,
+    "campaigns": 800
+  }
+}

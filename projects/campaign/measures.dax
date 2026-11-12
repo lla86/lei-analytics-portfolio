@@ -1,0 +1,9 @@
+Customers = DISTINCTCOUNT(Customers[customer_id])
+
+Responses = SUM(Campaigns[responded])
+
+Response Rate = DIVIDE([Responses], [Customers])
+
+Historical Spend CAD = SUM(Customers[spend_cad])
+
+Spend Per Customer CAD = DIVIDE([Historical Spend CAD], [Customers])
